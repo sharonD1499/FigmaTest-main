@@ -1,0 +1,648 @@
+@charset "utf-8";
+body {
+    font-family: 'Roboto';
+    width: auto;
+    height: auto;
+    background: #F5F5F5;
+}
+
+html {
+    width: auto;
+    height: auto;
+}
+
+.home-P{
+    height: 1280px;
+    width: 1300px;
+}
+
+.bird-logo{
+    top: 22px;
+    left: 570px;
+    display: block;
+    position: absolute;
+    /*margin-left: 130px;*/
+
+}
+
+.intro-para {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    width: 861px;
+    height: 210px;
+    top: 234px;
+    left: 195px;
+    position: absolute;
+    /*margin-left: 130px;*/
+
+}
+
+.first-image{
+    top: 444px;
+    left: 90px;
+    position: absolute;
+}
+
+.join-team-box{
+    z-index: 1;
+    position: absolute;
+    left: 493px;
+    background-color: white;
+    width: 697px;
+    height: 311px;
+    top: 539px;
+}
+
+.sentence-1{
+    /*width: 356px;
+    height: 66px;*/
+    top: 594px;
+    left: 531px;  
+    font-family: 'Roboto';
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 66px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 50px;
+
+
+
+}
+
+#border-len{
+    border-bottom: 1px solid #0B68AC;
+    width: 218px;
+    top: 693px;
+    left: 531px;
+    margin-left: 50px;
+    padding-top: 20px;
+
+}
+
+.button-box{
+    width: 137px;
+    height: 44px;
+    top: 732px;
+    left: 531px;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #990038;
+    color: white;
+    margin-left: 50px;
+    padding: 10px;
+    margin-top: 50px;
+
+
+
+}
+
+.open-p{
+    width: 381px;
+    height: 66px;
+    top: 1040px;
+    left: 97px;
+    position: absolute;
+    font-size: 56px;
+    line-height: 65.63px;
+}
+
+.border-p{
+    width: 1093px;
+    top: 1119px;
+    left: 97px;
+    border: 1px;
+    border: 1px solid #0B68AC;
+}
+
+/*First Column elements*/
+
+.first-col{
+    width: 258px;
+    height: 258px;
+    top: 1172px;
+    left: 97px;
+    background: #D3004D;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position:absolute;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color:#FFFFFF;
+}
+
+.title-1{
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color:#FFFFFF;
+    width: 258px;
+    height: 76px;
+    top: -160px;
+    position: relative;
+}
+
+/*Second Column elements*/ 
+
+.sec-col{
+    width: 258px;
+    height: 258px;
+    text-align: center;
+    top: 1172px;
+    left: 375px;
+    background: #D3004D;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position:absolute;
+    color:white;
+    display: inline;
+}
+
+.title-2{
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color:#FFFFFF;
+    width: 258px;
+    height: 76px;
+    top: -142px;
+    position: relative;
+}
+
+/*Third Column elements*/
+
+.third-col{
+    width: 258px;
+    height: 258px;
+    text-align: center;
+    top: 1172px;
+    left: 653px;
+    background: #D3004D;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position:absolute;
+}
+
+.title-3{
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color:#FFFFFF;
+    width: 258px;
+    height: 76px;
+    top: -142px;
+    position: relative;
+}
+
+/*Fourth Column elements*/
+
+.fourth-col{
+    width: 258px;
+    height: 258px;
+    text-align: center;
+    top: 1172px;
+    left: 932px;
+    background: #D3004D;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position:absolute;
+
+
+}
+
+.title-4{
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color:#FFFFFF;
+    width: 258px;
+    height: 76px;
+    top: -142px;
+    position: relative;
+}
+
+/*Fifth Column elements*/
+
+.fifth-col{
+    width: 258px;
+    height: 258px;
+    text-align: center;
+    top: 1452px;
+    left: 97px;
+    background: #D3004D;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    position:absolute;
+
+
+}
+
+.title-5{
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    color:#FFFFFF;
+    width: 258px;
+    height: 76px;
+    top: -142px;
+    position: relative;
+}
+
+/*Column hover affects*/
+
+.first-col .hover-affect1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.first-col .title-1 {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+    color: white;
+}
+
+.first-col:hover .hover-affect1 {
+    display: none;
+    top: 50px;
+    position: relative;
+}
+
+.first-col:hover .hover-affect1{
+    display: none;
+}
+
+.sec-col .hover-affect1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.sec-col .title-2 {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+    color: white;
+}
+
+.sec-col:hover .hover-affect1 {
+    display: none;
+    top: 50px;
+    position: relative;
+}
+
+.sec-col:hover .hover-affect1{
+    display: none;
+}
+
+.third-col .hover-affect1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.third-col .title-3 {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+    color: white;
+}
+
+.third-col:hover .hover-affect1 {
+    display: none;
+    top: 50px;
+    position: relative;
+}
+
+.third-col:hover .hover-affect1{
+    display: none;
+}
+
+.fourth-col .hover-affect1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.fourth-col .title-4 {
+    position: absolute;
+    top: 90px;
+    left: 0;
+    z-index: 99;
+    color: white;
+}
+
+.fourth-col:hover .hover-affect1 {
+    display: none;
+    top: 50px;
+    position: relative;
+}
+
+.fourth-col:hover .hover-affect1{
+    display: none;
+}
+
+.fifth-col .hover-affect1 {
+    display: inline;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.fifth-col .title-5 {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: 99;
+    color: white;
+}
+
+.fifth-col:hover .hover-affect1 {
+    display: none;
+    top: 50px;
+    position: relative;
+}
+
+.fifth-col:hover .hover-affect1{
+    display: none;
+}
+
+/*Bottom page css*/
+
+.end-page{
+    width: 1280px;
+    height: 62px;
+    top: 1833px;
+    background: #393939;
+    position:absolute;
+    color: white;
+    text-align:center;
+
+}
+
+.footer-text{
+    width: 230px;
+    height: 21px;
+    top: 1853px;
+    left: 522px;
+    font-size: 18px;
+    line-height: 21.09px;
+    position: sticky;
+    margin-bottom: 15px;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .bird-logo{
+        top: 30px;
+        left: 520px;
+    
+    }
+    .resize-logo{
+        width: 300px;
+        height: 300px;
+    }
+    .intro-para {
+        font-size: 45px;
+        height: 210px;
+        left: 66px; 
+        top: 340px;
+        line-height: 2.0em;
+        width: 1175px;
+    }
+    .mobile-r{
+        height: 730px;
+        width: 1110px;
+        margin-top: 200px;
+    }
+
+    .first-image{
+        top: 540px;
+        left: 84px;
+        position: relative;
+    }
+
+    .join-team-box{
+        left: 520px;
+        width: 690px;
+        height: 450px;
+        top: 950px;
+        padding: 50px;
+    }
+    .sentence-1{
+        font-size: 5em;
+    }
+    #border-len{
+        width: 350px;
+        top: 693px;
+        left: 531px;
+        margin-left: 50px;
+    }
+    .button-box{
+        margin-left: 50px;
+        width: 250px;
+        font-size: 35px;
+        padding: 40px;
+        padding-bottom: 50px;
+    }
+    .open-p{
+        top: 1520px;
+        font-size: 50px;
+        left: 100px;
+    }
+    .border-p{
+        width: 1100px;
+    }
+
+    .first-col{
+        top: 1650px;
+        width: 500px;
+        height: 500px;
+    }
+
+    .sec-col{
+        top: 1650px;
+        width: 500px;
+        height: 500px;
+        margin-left: 310px;
+    }
+    .third-col{
+        top: 2200px;
+        width: 300px;
+        height: 300px;
+        margin-left: -560px;
+    }
+    .fourth-col{
+        top: 2200px;
+        width: 300px;
+        height: 300px;
+        margin-left: -250px;
+    }
+    .fifth-col{
+        top: 2760px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .end-page{
+        width: 1300px;
+        height: 64px;
+        top:  3400px;
+        position: absolute;
+        text-align:center;
+    
+    }
+    .hover-affect1{
+        width: 500px;
+        height: 500px;
+        font-size: 20px;
+    }
+
+    .title-1, .title-2, .title-3, .title-4, .title-5{
+        font-size: 55px;
+        margin: 130px;
+        line-height: 1.3em;
+    }
+    .position-col{
+        width: 1300px;
+        height: 600px;
+    }
+
+    .footer-text{
+        font-size: 30px;
+        left: 400px;
+        width: 500px;
+        margin-top: 15px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 768px) { 
+
+    .bird-logo{
+        top: 22px;
+        left: 570px;
+    
+    }
+    .resize-logo{
+        width: 230px;
+        height: 230px;
+    }
+    .intro-para {
+        font-size: 32px;
+        height: 210px;
+        left: 260px; 
+        top: 300px;
+        line-height: 2.0em;
+    }
+    .mobile-r{
+        height: 760px;
+        width: 760px;
+    }
+
+    .first-image{
+        top: 540px;
+        left: 84px;
+        position: relative;
+    }
+
+    .join-team-box{
+        left: 520px;
+        width: 690px;
+        height: 450px;
+        top: 700px;
+        padding: 50px;
+    }
+    .sentence-1{
+        font-size: 5em;
+    }
+    #border-len{
+        width: 350px;
+        top: 693px;
+        left: 531px;
+        margin-left: 50px;
+    }
+    .button-box{
+        margin-left: 50px;
+        width: 170px;
+    }
+    .open-p{
+        top: 1330px;
+        font-size: 50px;
+        left: 100px;
+    }
+    .border-p{
+        width: 1100px;
+    }
+
+    .first-col{
+        top: 1440px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .sec-col{
+        top: 1440px;
+        width: 300px;
+        height: 300px;
+        margin-left: 120px;
+    }
+    .third-col{
+        top: 1440px;
+        width: 300px;
+        height: 300px;
+        margin-left: 250px;
+    }
+    .fourth-col{
+        top: 1800px;
+        width: 300px;
+        height: 300px;
+        margin-left: -437px;
+    }
+    .fifth-col{
+        top: 1800px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .end-page{
+        width: 1300px;
+        height: 62px;
+        top:  2200px;
+        position: absolute;
+        text-align:center;
+    
+    }
+    .hover-affect1{
+        width: 300px;
+        height: 300px;
+        font-size: 20px;
+    }
+
+    .title-1, .title-2, .title-3, .title-4, .title-5{
+        font-size: 40px;
+        margin: 17px;
+        line-height: 1.3em;
+    }
+    .position-col{
+        width: 1300px;
+        height: 600px;
+    }
+
+ }
